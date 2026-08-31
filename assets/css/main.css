@@ -1673,3 +1673,11 @@ article p {
 .project-box > :last-child {
     margin-bottom: 0;
 }
+.beyond-box h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0.05rem;
+    font-size: 1.3rem;
+}
