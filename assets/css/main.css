@@ -141,7 +141,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Times New Roman", Times, serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -1664,6 +1664,10 @@ input, select, textarea {
     padding: 1.5em;
     margin-bottom: 2em;
     box-shadow: inset 0 0 0 8px #9bb1f2;
+}
+
+article p {
+    text-align: justify;
 }
 
 .project-box > :last-child {
