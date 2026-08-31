@@ -1681,3 +1681,28 @@ article p {
     letter-spacing: 0.05rem;
     font-size: 1.3rem;
 }
+
+.beyond-box {
+    background-color: #3A3254;
+    padding: 1.5rem;
+    margin-bottom: 1.25rem;
+    box-shadow: inset 0 0 0 8px #2D2742;
+}
+
+.beyond-box h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0.05rem;
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
+}
+
+.beyond-box p {
+    margin-bottom: 1rem;
+}
+
+.beyond-box ul {
+    margin-bottom: 0;
+}
