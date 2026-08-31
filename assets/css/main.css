@@ -1765,3 +1765,13 @@ article p {
 .about-personal-content h3 {
     margin-top: 0;
 }
+
+@media screen and (max-width: 736px) {
+    .about-personal {
+        flex-direction: column;
+    }
+
+    .about-photo {
+        width: 100%;
+    }
+}
