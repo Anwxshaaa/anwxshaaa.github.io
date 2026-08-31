@@ -1739,7 +1739,29 @@ article p {
     font-size: 1.4rem;
 }
 
-.contact-links a > span:last-child {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 1rem;
+.about-personal {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.about-photo {
+    width: 35%;
+    flex-shrink: 0;
+}
+
+.about-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.about-personal-content {
+    flex: 1;
+}
+
+.about-personal-content h3 {
+    margin-top: 0;
 }
